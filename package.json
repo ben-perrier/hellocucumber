@@ -4,7 +4,7 @@
   "description": "10 minute tutorial from cucumber.io, see https://cucumber.io/docs/guides/10-minute-tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js"
   },
   "keywords": [],
   "author": "",
