@@ -1,7 +1,7 @@
 {
   "name": "hellocucumber",
   "version": "1.0.0",
-  "description": "10 minute tutorial from cucumber.io, see https://cucumber.io/docs/guides/10-minute-tutorial",
+  "description": "10 minute tutorial from cucumber.io, see https://cucumber.io/docs/guides/10-minute-tutorial; Installing playwright, see https://playwright.dev/docs/intro",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js"
@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^11.2.0"
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "playwright": "^1.49.1"
   }
 }
